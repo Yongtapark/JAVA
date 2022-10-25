@@ -23,8 +23,8 @@ public class CalenderTest2 {
 			System.out.print("\t");// 시작위치만큼 공백처리
 		}
 		//10월을 입력 받으면 mon_len[10-1] : 마지막 달의 일수
-		for(int i =1;i<mon_len[mon-1];i++) {
-		System.out.printf("%2d\t",i);
+		for(int i =1;i<mon_len[mon-1]+1;i++) {
+		System.out.printf("%d\t",i);
 		if((day[mon-1]+i)%7==0) {
 			System.out.println();
 		}

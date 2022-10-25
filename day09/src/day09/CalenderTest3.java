@@ -6,7 +6,6 @@ public class CalenderTest3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
 
 		int day[] = new int[] { 6, 2, 2, 5, 0, 3, 5, 1, 4, 6, 2, 1 };
 		int mon_len[] = new int[] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };

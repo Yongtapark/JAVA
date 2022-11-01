@@ -1,5 +1,6 @@
 package java1027;
 //call by address
+//1.리턴값이 없고 매개변수도없음
 public class Mathod_Add_메소드호출 {
 
 	public static void main(String[] args) {

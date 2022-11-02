@@ -6,7 +6,7 @@ public class ProductionInfo {
 	// 정적필드 선언
 	static int productID = 0;// 상품 고유 식별번호
 	static int numberOfProduct = 0;
-	static Product[] p = new Product[3];
+	static Product[] p = new Product[3]; //상품의 최대갯수
 
 	public static void main(String[] args) {
 		Scanner sin = new Scanner(System.in);
@@ -98,7 +98,7 @@ public class ProductionInfo {
 			break;
 
 		}// switch
-		numberOfProduct++;
+		numberOfProduct++;//이게 없으면 p[0]에서 값이 고여있는다.
 	}
 
 }

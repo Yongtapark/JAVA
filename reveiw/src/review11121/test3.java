@@ -31,9 +31,6 @@ public class test3 extends JFrame {
 		
 		setSize(500,500);
 		setVisible(true);
-		//jp.requestFocus();
-		
-		
 		
 	}
 	

@@ -54,15 +54,22 @@ public class test2 extends JFrame {
 			jp2.add(labels[i]);
 			jp2.add(text[i]);
 		}
-		text[0].addActionListener(new ActionListener() {
-
+		//text[0].addActionListener(new calc);
+		
+		class calc implements ActionListener{
+			int[] a= {50000,10000,1000,500,100,50,10,1};
+			int[] b=new int[8];
+			int sum=0;
+			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				int input = Integer.parseInt(text[0].getText());
-				sum = sum + input * 50000;
 
+//				for(int i=0; i<a.length;i++) {
+//					b[i]=a[i]*(Integer.parseInt(b[i].))
+//					}
+				
 			}
-		});
+		}
 
 		btn.addMouseListener(new MouseAdapter() {
 			@Override

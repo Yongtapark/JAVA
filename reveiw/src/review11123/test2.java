@@ -25,11 +25,12 @@ public class test2 extends JFrame {
 		contentPane.add(panel, BorderLayout.CENTER);
 		setSize(250, 250);
 		setVisible(true);
+		
 	}
 
 	class MyPanel extends JPanel {
-		//Vector<Point> vs=new Vector<Point>();
-		//Vector<Point> ve=new Vector<Point>();
+		
+		Vector<Point> ve=new Vector<Point>();
 		
 		Point startP =null;
 		Point endP =null;
@@ -38,6 +39,8 @@ public class test2 extends JFrame {
 		Image image = imageIcon.getImage();
 		
 		public MyPanel() {
+			Dot dot =new Dot();
+			add(dot);
 			addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseDragged(MouseEvent e) {
@@ -59,6 +62,16 @@ public class test2 extends JFrame {
 			
 			
 		}
+		class Dot extends JButton{
+		
+			Dot(){
+				setLayout(null);
+				this.setSize(20,40);
+				setBackground(Color.blue);
+			}
+		}
+		
+		
 	}
 
 	public static void main(String [] args) {

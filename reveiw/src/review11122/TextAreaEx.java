@@ -36,6 +36,7 @@ public class TextAreaEx extends JFrame {
 
 		public MyCenterPannel() {
 			tf = new JTextField(20);
+			tf.setText("최은선 바보");
 			btn = new JButton("추가");
 			btn1 = new JButton("지우기");
 			btn1.addActionListener(new ActionListener() {
@@ -56,6 +57,7 @@ public class TextAreaEx extends JFrame {
 				}
 			});
 			ta = new JTextArea("hello", 7, 20);
+			ta.setText("ttlqkfdhodq");
 			add(new JLabel("아래 창에 문자열을 입력하고 버튼을 클릭하세요"));
 			add(tf);
 			add(btn);

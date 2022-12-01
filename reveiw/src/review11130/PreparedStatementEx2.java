@@ -28,7 +28,7 @@ public class PreparedStatementEx2 {
 			pstmt.setString(4, "tq");
 			pstmt.setInt(5, 123);
 			pstmt.setInt(6, 123);
-			pstmt.setInt(7, 123);
+			pstmt.setInt(7, 101);
 			
 			int i = pstmt.executeUpdate();
 			System.out.println(i + "개의 행이 추가되었습니다.");

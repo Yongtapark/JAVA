@@ -1,0 +1,7 @@
+#department table
+
+department_insert insert into department values(?,?,?,?)
+set select deptno, dname, college, loc \
+             from department where deptno=?
+delete delete from department where deptno =?
+t_update update department set loc=? where deptno =?
